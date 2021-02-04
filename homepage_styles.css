@@ -1,0 +1,24 @@
+
+body {
+    background-color: rgb(186, 234, 250);
+    font-family: Helvetica;
+}
+
+.title {
+    text-align: center;
+    font-size: 150%;
+    padding: 25px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    border: 3px outset rgb(95, 146, 163);
+    padding: 20 px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
