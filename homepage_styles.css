@@ -1,24 +1,44 @@
 
-body {
-    background-color: rgb(186, 234, 250);
-    font-family: Helvetica;
-}
+* {
+    box-sizing: border-box;
+  }
 
-.title {
-    text-align: right;
+header {
+    text-align: center;
+    background-color:lightcoral;
+    font-family: Helvetica;
     font-size: 150%;
     padding: 25px;
 }
 
-.column {
-    float: left;
-    width: 30%;
-    border: 3px outset rgb(95, 146, 163);
-    padding: 20 px;
+nav{
+    background-color: gray;
+    padding: 5px;
 }
 
-.row:after{
-    content: "";
-    display: table;
-    clear: both;
+a.navbar{
+    outline:2px solid black;
+    padding:4px;
 }
+
+section{
+    background-color:linen;
+    float:left;
+    width: 75%;
+}
+
+article{
+    background-color:white;
+    border:3px dotted lightpink;
+}
+
+aside{
+    float: right;
+    width: 25%;
+}
+
+/* p {
+    background-color: rgb(186, 234, 250);
+    font-family: Helvetica;
+    text-align: left;
+} */
