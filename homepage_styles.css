@@ -1,24 +1,29 @@
 
 * {
     box-sizing: border-box;
+    font-family: Helvetica;
   }
 
 header {
     text-align: center;
     background-color:lightcoral;
-    font-family: Helvetica;
     font-size: 150%;
     padding: 25px;
+    ;
 }
 
 nav{
+    overflow: hidden;
     background-color: gray;
-    padding: 5px;
 }
 
 a.navbar{
-    outline:2px solid black;
-    padding:4px;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding:10px 10px;
+    text-decoration: none;
 }
 
 section{
