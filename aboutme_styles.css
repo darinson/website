@@ -84,6 +84,40 @@ aside{
     padding: 10px;
 }
 
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+.form-group{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.form-group input, .form-group textarea{
+    width: 90%;
+    padding: 5px;
+    font-size: 10px;
+    border: 1px solid gray;
+    resize: vertical;
+}
+
+button[type="submit"]{
+    width:90%;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 5px;
+    transition: .3s ease background-color;
+}
+
+button[type="submit"]:hover{
+    background-color: #d0ada7;
+}
+
 /**Creating the footer**/
 .row:after{
     content: "";
