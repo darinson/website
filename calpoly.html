@@ -3,7 +3,8 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="homepage_styles.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="calpoly.css">
     <title>Darin Son</title>
 </head>
 
@@ -11,19 +12,54 @@
     <header>
         <h1>Darin Son</h1>
     </header>
-    <nav>
-        <a class="navbar" href="homepage.html">Home</a>
-        <a class="navbar" href="aboutme.html">Introduction</a>
-        <a class="navbar" href="calpoly.html">Cal Poly</a>
-        <a class="navbar" href="coding.html">Coding/Data Science</a>
-    </nav>
-    <section>
-        <article>
-            <h1>Cal Poly</h1>
-            <p>For my master's degree, I did research on biological treatment methods for dairy wastewater. You can read
+    <ul class="navbar">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="aboutme.html">Introduction</a></li>
+        <li><a href="calpoly.html">Cal Poly</a></li>
+        <li><a href="coding.html">Coding/Data Science</a></li>
+    </ul>
+    <div class="row">
+        <!-- <div class="col-1"></div> -->
+        <div class="col-7 maincontent">
+            <h1 style="margin: 10px 5px;font-size:150%">My life at Cal Poly...</h1>
+            <div class="image-cropper">
+                <img src="images/SLO_terracehill.jpg" alt="A picture of SLO from Terrace Hill." class="intro_pic">
+            </div>
+            <p>
+                For my master's degree, I did research on biological treatment methods for dairy wastewater. You can
+                read
                 more about that adventure <a href="https://digitalcommons.calpoly.edu/theses/2222/">here</a>!<br>
                 It was through my master's thesis where I got more comfortable around working with data and that maybe
                 field work wasn't for me.<br>
-
             </p>
-        </article>
+        </div>
+        <div class="col-5 sidebar">
+            <h2 style="margin: 10px 5px; font-size:150%">Send me a message!</h2>
+            <div class="container">
+                <form action="" method="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <br>
+            <h2 style="margin: 10px 5px; font-size:150%">Fun Facts</h2>
+        </div>
+        <!-- <div class="col-1"></div> -->
+    </div>
+    <footer>
+        This is a footer.
+    </footer>
+</body>
+
+</html>
