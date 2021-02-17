@@ -11,50 +11,50 @@
     <header>
         <h1>Darin Son</h1>
     </header>
-    <nav>
-        <a class="navbar" href="homepage.html">Home</a>
-        <a class="navbar" href="aboutme.html">Introduction</a>
-        <a class="navbar" href="calpoly.html">Cal Poly</a>
-        <a class="navbar" href="coding.html">Coding/Data Science</a>
-    </nav>
+    <ul class="navbar">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="aboutme.html">Introduction</a></li>
+        <li><a href="calpoly.html">Cal Poly</a></li>
+        <li><a href="coding.html">Coding/Data Science</a></li>
+    </ul>
     <div class="row">
-        <section>
-            <article>
-                <h1 style="margin: 5px 5px;font-size:150%">Let me introduce myself...</h1>
-                <div class="image-cropper">
-                    <img src="images/greatpark.jpg" alt="A picture of Darin." class="intro_pic">
-                </div>
-                <p>
-                    Hello!<br>
-                    My name is Darin Son.<br>
-                    I grew up in Seoul, Korea for 18 years.<br>
-                    My family moved to Irvine, California in 2015, where I live now.<br>
-                    I attended Cal Poly, San Luis Obispo for college between 2015~2020.<br>
-                    In my free time, I like to cook, admire plants, jog, yoga and watch movies! I'm not very good at it,
-                    but I do enjoy surfing and longboarding around my neighborhood also :)
-                </p>
-            </article>
-        </section>
-        <aside>
-            <h1>Send me a message!</h1>
+        <!-- <div class="col-1"></div> -->
+        <div class="col-7 maincontent">
+            <h1 style="margin: 10px 5px;font-size:150%">Let me introduce myself...</h1>
+            <div class="image-cropper">
+                <img src="images/greatpark.jpg" alt="A picture of Darin." class="intro_pic">
+            </div>
+            <p>
+                Hello!<br>
+                My name is Darin Son.<br>
+                I grew up in Seoul, Korea for 18 years.<br>
+                My family moved to Irvine, California in 2015, where I live now.<br>
+                I attended Cal Poly, San Luis Obispo for college between 2015~2020.<br>
+                In my free time, I like to cook, admire plants, jog, yoga and watch movies! I'm not very good at it,
+                but I do enjoy surfing and longboarding around my neighborhood also :)
+            </p>
+        </div>
+        <div class="col-4 sidebar">
+            <h2 style="margin: 10px 5px; font-size:150%">Send me a message!</h2>
             <div class="container">
                 <form action="" method="">
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name">
+                        <input type="text" id="name" name="name" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" required>
                     </div>
                     <div class="form-group">
-                        <lable for="message">Message</lable>
-                        <textarea id="message" name="message" cols="30" rows="10"></textarea>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" cols="30" rows="10" required></textarea>
                     </div>
                     <button type="submit">Submit</button>
                 </form>
             </div>
-        </aside>
+        </div>
+        <!-- <div class="col-1"></div> -->
     </div>
     <footer>
         This is a footer.
