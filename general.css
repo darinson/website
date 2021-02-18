@@ -7,7 +7,7 @@
   html{
       min-height:100vh;
       height: 100vh;
-      padding: 0px 200px;
+      padding: 0px 100px;
   }
 body, .maincontent, .sidebar{
     min-height:100vh;
@@ -20,9 +20,11 @@ body, .maincontent, .sidebar{
   }
 
 .col-1 {width: 8.33%;}
-.col-5 {width: 40%;}
+.col-3 {width: 33.33%}
+.col-5 {width: 35%;}
 .col-6 {width: 50%;}
-.col-7 {width: 60%;}
+.col-7 {width: 65%;}
+.col-12 {width:100%;}
 
 
 header {
@@ -82,13 +84,13 @@ header {
 
 p{
     line-height:1.5;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 /* Creating the side bar */
 .sidebar{
     background-color:white; 
-    border-left: 3px solid gray;   
+    border-left: 3px solid gray;
     margin: 20px 0px;
     padding: 10px;
 }
@@ -96,8 +98,7 @@ p{
 .container{
     width: 90%;
     margin: 0 auto;
-    padding: 15px;
-    border: 2px solid black;
+    padding: 5px;
 }
 
 .form-group{

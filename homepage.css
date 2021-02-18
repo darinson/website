@@ -1,0 +1,18 @@
+.container{
+    position: relative;
+}
+.mainpic{
+    display: inline;
+    height: auto;
+    width: 100%;
+}
+
+.imagetext{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-family: Helvetica;
+    font-size:125%;
+    color:#afd5eb;
+}
