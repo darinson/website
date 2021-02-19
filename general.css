@@ -7,16 +7,19 @@
   html{
       min-height:100vh;
       height: 100vh;
-      padding: 0px 100px;
-  }
+    }
 body, .maincontent, .sidebar{
     min-height:100vh;
     height: 100vh;
 }
+
+body{
+    padding:0px 50px;
+}
+
   /* col- grid Credits to W3Schools */
   [class*="col-"] {
     float: left;
-    padding: 15px;
   }
 
 .col-1 {width: 8.33%;}
@@ -29,18 +32,20 @@ body, .maincontent, .sidebar{
 
 header {
     text-align: center;
-    color: #98c1d9;
-    font-size: 150%;
-    padding: 20px;
+    color: #6485c1;
+    font-size: 3.5vw;
+    line-height: 1;
+    /* Does header have default margin? I noticed it appears on Inspect Source, even though I set margin to 0. */
 }
 
 /** Navigation Bar **/
 .navbar{
-    border-top: 2px solid #293241;
-    border-bottom: 2px solid #293241;
+    border-top: 0.15vw solid #a5a7ac;
+    border-bottom: 0.15vw solid #a5a7ac;
     list-style: none;
+    padding: 0.5%;
     margin: 0;
-    padding: 5px;
+    font-size: 2vw;
     text-align:center;
 }
 
@@ -49,23 +54,21 @@ header {
 }
 
 .navbar a{
+    text-decoration: none;
     display: inline-block;
     padding: 5px 10px;
-    text-decoration: none;
 }
 
 .navbar a:link, .navbar a:visited{
-    color: black;
+    color: #0d0630;
 }
 
 .navbar a:hover{
-    text-decoration: underline;
-    color: #98c1d9;
+    color: #0085cc;
 }
 
 .navbar a:active{
-    text-decoration: underline;
-    color: #3d5a80;
+    color: #6485c1;
 } 
 
 /**main content**/
@@ -74,7 +77,8 @@ header {
     clear: both;
     display: table;
   }
-  
+ 
+/* This is for 2-col pages. */
 .maincontent{
     float: left;
     margin: 20px 0px;
@@ -84,7 +88,6 @@ header {
 
 p{
     line-height:1.5;
-    /* padding: 10px; */
 }
 
 /* Creating the side bar */
@@ -131,8 +134,7 @@ button[type="submit"]:hover{
 /**Creating the footer**/
 
 footer{
-    border-top:2px solid #293241;
-    border-bottom:2px solid #293241;
+    border:2px solid #293241;
     text-align: center;
     padding: 15px 0px 15px;
 }

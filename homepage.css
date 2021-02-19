@@ -1,10 +1,13 @@
 .container{
     position: relative;
+    width: 100%;
+    padding: 0px;
 }
 .mainpic{
     display: inline;
+    width: inherit;
     height: auto;
-    width: 100%;
+    object-fit: cover;
 }
 
 .imagetext{
@@ -13,6 +16,57 @@
     left: 70%;
     transform: translate(-50%, -50%);
     font-family: Helvetica;
-    font-size:125%;
-    color:#afd5eb;
+    font-size: 2vw;
+    color:#aabee4;
+}
+
+.col-3 a{
+    text-decoration: none;
+}
+
+.col-3 a:link, .col-3 a:visited{
+    color: #0d0630;
+}
+
+.col-3 a:hover{
+    color: #0085cc;
+}
+
+.col-3 a:active{
+    color: #6485c1;
+} 
+
+.image-cropper{
+    width: 20vw;
+    height:20vw;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background-pic{
+    display: inline;
+    margin: 0 auto;
+    margin-top: -10%;
+    height: 180%;
+    width: auto;
+}
+
+.work-pic{
+    display: inline;
+    margin: 0 auto;
+    margin-top: -50%;
+    margin-left: 0%;
+    height: 200%;
+    width: auto;
+}
+
+.life-pic{
+    display: inline;
+    margin: 0 auto;
+    margin-top: -10%;
+    margin-left: -15%;
+    height: 160%;
+    width: auto;
 }
