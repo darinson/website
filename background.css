@@ -1,29 +1,26 @@
-
-.image-cropper{
-
-    height: 400px;
-    overflow: hidden;
-    margin: 10px;
-}
-
-.intro_pic{
-    display: inline;
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
-}
-
 /* Creating the side bar */
+.sidebar{
+    background-color:white; 
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
 .form-group{
     width: 100%;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 2vw;
 }
 
 .form-group input, .form-group textarea{
     width: 99%;
     padding: 5px;
-    font-size: 14px;
+    font-size: 2vw;
     border: 1px solid gray;
     resize: vertical;
 }

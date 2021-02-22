@@ -43,9 +43,9 @@ header {
     border-top: 0.15vw solid #a5a7ac;
     border-bottom: 0.15vw solid #a5a7ac;
     list-style: none;
-    padding: 0.5%;
+    padding: 0.1%;
     margin: 0;
-    font-size: 2vw;
+    font-size: 1.8vw;
     text-align:center;
 }
 
@@ -81,54 +81,15 @@ header {
 /* This is for 2-col pages. */
 .maincontent{
     float: left;
-    margin: 20px 0px;
-    padding: 10px 20px 10px 10px;
+    margin: 5px 0px;
+    padding: 5px;
     height: 100%;
+    border-right: 3px solid gray;
 }
 
 p{
+    font-size: 1.5vw;
     line-height:1.5;
-}
-
-/* Creating the side bar */
-.sidebar{
-    background-color:white; 
-    border-left: 3px solid gray;
-    margin: 20px 0px;
-    padding: 10px;
-}
-
-.container{
-    width: 90%;
-    margin: 0 auto;
-    padding: 5px;
-}
-
-.form-group{
-    width: 100%;
-    margin-top: 10px;
-    font-size: 18px;
-}
-
-.form-group input, .form-group textarea{
-    width: 99%;
-    padding: 5px;
-    font-size: 14px;
-    border: 1px solid gray;
-    resize: vertical;
-}
-
-button[type="submit"]{
-    width:99%;
-    border: none;
-    padding: 10px;
-    font-size: 15px;
-    margin-top: 5px;
-    transition: .3s ease background-color;
-}
-
-button[type="submit"]:hover{
-    background-color: #98c1d9;
 }
 
 /**Creating the footer**/
