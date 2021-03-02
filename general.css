@@ -35,7 +35,6 @@ header {
     color: #6485c1;
     font-size: 3.5vw;
     line-height: 1;
-    /* Does header have default margin? I noticed it appears on Inspect Source, even though I set margin to 0. */
 }
 
 /** Navigation Bar **/
@@ -95,7 +94,9 @@ p{
 /**Creating the footer**/
 
 footer{
-    border:2px solid #293241;
+    position: relative;
+    width: 100%;
+    border-top:2px solid #293241;
     text-align: center;
     padding: 15px 0px 15px;
 }
